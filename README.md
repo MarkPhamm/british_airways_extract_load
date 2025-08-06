@@ -37,6 +37,7 @@ This project implements a modern Extract-Load pipeline for British Airways, desi
 ---
 
 ## 🧱 Data Architecture
+<img width="1560" height="540" alt="BritishAirways (1)" src="https://github.com/user-attachments/assets/e39ce225-c54a-4622-8b23-ada013f90003" />
 
 ### 1. Data Source
 The project processes customer review data scraped from, which contains detailed information about customer flight experiences.
@@ -55,7 +56,6 @@ The project processes customer review data scraped from, which contains detailed
    - Upload cleaned data to AWS S3 bucket (`upload_cleaned_data_to_s3`)
    - Store in staging area for Snowflake ingestion
    - Maintain data versioning and audit trail
-<img width="1560" height="540" alt="BritishAirways (1)" src="https://github.com/user-attachments/assets/e39ce225-c54a-4622-8b23-ada013f90003" />
 
 4. **Snowflake Loading**
    - Use Snowflake COPY operator to load data from S3
